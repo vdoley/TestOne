@@ -1,4 +1,3 @@
 FROM alpine
-
-
-CMD echo "hello-world"
+ENTRYPOINT [ "ls","-l" ]
+CMD ["home"]
